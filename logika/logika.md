@@ -10,7 +10,7 @@ $\leftrightarrow$ równoważnik
 
 ### Logika zdaniowa:
 *Każde zdanie ma wartość logiczną: prawdę (1) lub fałsz (0).*
----
+
 #### Jeden podział
 1. Zdania przygodne: wartość zdania zależy od sytuacji i okoliczności
 2. Zdanie konieczne: wartość nie zależy od sytuacji lub okoliczności
