@@ -77,9 +77,9 @@ P.Z.F. (Poprawnie zbudowana formuła) jest pojedynczą zmienną (symbolem) zdani
 | P<sub>3</sub> | ✅ | - |
 | P $\land$ Q | ❌ | Zdanie nie zamknięte w nawiasach |
 | (P $\land$ Q) | ✅ | - |
-| $\neg$P | ✅ | - |
-| ($\neg$P) | ❌ | Negacja nie może znajdować sie w nawiasie tak sama z siebie |
-| $\neg\neg$P | ✅ | Dwie negacje mogą występować zaraz po sobie |
+| $\neg$ P | ✅ | - |
+| ($\neg$ P) | ❌ | Negacja nie może znajdować sie w nawiasie tak sama z siebie |
+| $\neg \neg$ P | ✅ | Dwie negacje mogą występować zaraz po sobie |
 | <span style="white-space: nowrap">(((P $\land$ Q) $\to\neg$ P) $\lor$ (R $\leftrightarrow\neg$ Q))</span> | ✅ | - |
 
 **Podformułą** nazywamy napis, który jest częścią pewnej formuły i jest p.z.f.\
