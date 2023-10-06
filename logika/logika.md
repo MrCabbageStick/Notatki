@@ -87,3 +87,79 @@ Zdanie: (((P $\land$ Q) $\to\neg$ P) $\lor$ (R $\leftrightarrow\neg$ Q))\
 ❌ **Niepoprawne** podzdanie: P) $\lor$ (R\
 ✅ Poprawne podzdanie: (P $\land$ Q)\
 ✅ Inne poprawne podzanie: Q
+
+
+### Tabele prawdy dla symboli:
+
+<div class="truth-tables">
+<div class="truth-table__wrapper">
+
+Koniunkcja (AND):
+| P | Q | AND |
+|-|-|-|
+|0|0|0|
+|0|1|0|
+|1|0|0|
+|1|1|1|
+</div>
+
+<div class="truth-table__wrapper">
+
+Alternatywa (OR)
+| P | Q | OR |
+|-|-|-|
+|0|0|0|
+|0|1|1|
+|1|0|1|
+|1|1|1|
+
+</div>
+<div class="truth-table__wrapper">
+
+Implikacja (¯\\_(ツ)_/¯)
+| P | Q | $\to$ |
+|-|-|-|
+|0|0|1|
+|0|1|1|
+|1|0|0|
+|1|1|1|
+
+</div>
+<div class="truth-table__wrapper">
+
+Równoważnik (XNOR)
+| P | Q | XNOR |
+|-|-|-|
+|0|0|1|
+|0|1|0|
+|1|0|0|
+|1|1|1|
+
+</div>
+<div class="truth-table__wrapper">
+
+Negacja (NOT)
+| P | NOT |
+|-|-|
+|0|1|
+|1|0|
+
+</div>
+</div>
+
+**Legenda**:\
+P, Q - Wartość zdania wejściowego\
+AND, OR, $\to$, XNOR, NOT - Wartość zdania wyjściowego
+
+<style>
+    .truth-tables{
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .truth-table__wrapper{
+        border-left: 1px solid currentcolor;
+        padding-left: .5rem;
+    }
+</style>
