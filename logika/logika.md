@@ -90,6 +90,7 @@ Zdanie: (((P $\land$ Q) $\to\neg$ P) $\lor$ (R $\leftrightarrow\neg$ Q))\
 
 
 ### Tabele prawdy dla symboli:
+(*Nie było na wykładzie ale ja je lubię*)
 
 <div class="truth-tables">
 <div class="truth-table__wrapper">
