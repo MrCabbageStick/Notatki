@@ -1,6 +1,6 @@
 # LOGIKA
 
-### Symbole $\neg \land \lor \to \leftrightarrow$:
+### Symbole:
 <!-- $$\neg \land \lor \to \leftrightarrow$$ -->
 $\neg$ negacja (zaprzeczenie)\
 $\land$ koniunkcja\
@@ -41,7 +41,6 @@ Zdanie złożone: "Wezmę parasol, jeśli będzie padał deszcz"
 | Negacja | "Nieprawda, że..." | $\neg$ | Prawdziwa, gdy zdanie początkowe jest fałszywe |
 
 ---
----
 ### Język logiki formalnej:
 
 Zdania proste oznacza się jako: P<sub>0</sub>, P<sub>1</sub>, P<sub>2</sub>, P<sub>3</sub>, ...\
@@ -50,7 +49,7 @@ Jeżeli zdań jest mniej niż 6 można użyc: P, Q, R, S, T
 
 #### Przykład zdania:
 
-"Jan jest wysoki i nie prawda, że Jan jest piłkarzem"\
+"Jan jest wysoki i nie prawda, że Jan jest piłkarzem"
 
 Rozbicie: 
 - P = "Jan jest wysoki"
@@ -82,7 +81,7 @@ P.Z.F. (Poprawnie zbudowana formuła) jest pojedynczą zmienną (symbolem) zdani
 | ($\neg$P) | ❌ | Negacja nie może znajdować sie w nawiasie tak sama z siebie |
 | $\neg\neg$P | ✅ | Dwie negacje mogą występować zaraz po sobie |
 | <span style="white-space: nowrap">(((P $\land$ Q) $\to\neg$ P) $\lor$ (R $\leftrightarrow\neg$ Q))</span> | ✅ | - |
----
+
 **Podformułą** nazywamy napis, który jest częścią pewnej formuły i jest p.z.f.\
 Zdanie: (((P $\land$ Q) $\to\neg$ P) $\lor$ (R $\leftrightarrow\neg$ Q))\
 ❌ **Niepoprawne** podzdanie: P) $\lor$ (R\
