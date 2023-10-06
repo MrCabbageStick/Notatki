@@ -152,7 +152,7 @@ Negacja (NOT)
 P, Q - Wartość zdania wejściowego\
 AND, OR, $\to$, XNOR, NOT - Wartość zdania wyjściowego
 
-<style>
+<!-- <style>
     .truth-tables{
         display: flex;
         gap: 1rem;
@@ -163,4 +163,4 @@ AND, OR, $\to$, XNOR, NOT - Wartość zdania wyjściowego
         border-left: 1px solid currentcolor;
         padding-left: .5rem;
     }
-</style>
+</style> -->
