@@ -96,7 +96,7 @@ Zdanie: (((P $\land$ Q) $\to\neg$ P) $\lor$ (R $\leftrightarrow\neg$ Q))\
 <div class="truth-table__wrapper">
 
 Koniunkcja (AND):
-| P | Q | AND |
+| v(P) | v(Q) | v((P $\land$ Q)) |
 |-|-|-|
 |0|0|0|
 |0|1|0|
@@ -107,7 +107,7 @@ Koniunkcja (AND):
 <div class="truth-table__wrapper">
 
 Alternatywa (OR)
-| P | Q | OR |
+| v(P) | v(Q) | v((P $\lor$ Q)) |
 |-|-|-|
 |0|0|0|
 |0|1|1|
@@ -118,7 +118,7 @@ Alternatywa (OR)
 <div class="truth-table__wrapper">
 
 Implikacja (¯\\_(ツ)_/¯)
-| P | Q | $\to$ |
+| v(P) | v(Q) | v((P $\to$ Q)) |
 |-|-|-|
 |0|0|1|
 |0|1|1|
@@ -129,7 +129,7 @@ Implikacja (¯\\_(ツ)_/¯)
 <div class="truth-table__wrapper">
 
 Równoważnik (XNOR)
-| P | Q | XNOR |
+| v(P) | v(Q) | v((P $\leftrightarrow$ Q)) |
 |-|-|-|
 |0|0|1|
 |0|1|0|
@@ -140,7 +140,7 @@ Równoważnik (XNOR)
 <div class="truth-table__wrapper">
 
 Negacja (NOT)
-| P | NOT |
+| v(P) | v($\neg$ P) |
 |-|-|
 |0|1|
 |1|0|
@@ -149,8 +149,8 @@ Negacja (NOT)
 </div>
 
 **Legenda**:\
-P, Q - Wartość zdania wejściowego\
-AND, OR, $\to$, XNOR, NOT - Wartość zdania wyjściowego
+v(P), v(Q) - Wartość zdania wejściowego\
+v(P coś Q), v( $\neg$ P) - Wartość zdania wyjściowego
 
 <!-- <style>
     .truth-tables{
